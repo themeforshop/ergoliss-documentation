@@ -4,6 +4,9 @@
 	var lazyLoadInstance = new LazyLoad({
 		// Your custom settings go here
 	  });
+	  lazyLoadInstance.loadAll();
+
+
 	  
 	//*=============menu sticky js =============*//
 	var $window = $(window);
